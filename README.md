@@ -37,5 +37,5 @@ Vi använder **Git Flow** för att hantera vår utvecklingsprocess. Här är de 
 ### Cherry-picking
 - Cherry-pick använder vi för att ta specifika commits från en gren och applicera dem på en annan gren utan att slå samman hela grenen.
 
-- För att hitta commit ID = Git log 
-- Efter hittad önskad commit = git cherry-pick <commit-id>
+- För att hitta commit ID = `Git log`
+- Efter hittad önskad commit = `git cherry-pick <commit-id>`
