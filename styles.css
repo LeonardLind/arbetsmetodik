@@ -1,0 +1,19 @@
+.section-om{
+    background-color: rgb(242, 237, 237);
+}
+
+.section-om div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+.section-om h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
