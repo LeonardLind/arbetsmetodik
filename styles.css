@@ -6,6 +6,16 @@
   background-color: rgb(219, 226, 226);
   max-width: 50%;
   padding-bottom: 30px;
+
+  h2 {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  h2:hover {
+    transform: scale(1.1);
+    color: black;
+  }
 }
 
 .jobs-title {
