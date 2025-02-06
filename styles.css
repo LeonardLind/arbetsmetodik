@@ -28,11 +28,12 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
   margin: 10px;
-
-  .section-om {
-    background-color: rgb(242, 237, 237);
-  }
 }
+
+.section-om {
+  background-color: rgb(242, 237, 237);
+}
+
 .section-om div {
   display: flex;
   text-align: center;
