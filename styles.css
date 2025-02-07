@@ -1,3 +1,4 @@
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -47,5 +48,69 @@ nav {
 
 .nav-links ul li a:hover {
     text-decoration: underline;
+
+#hero {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgba(169, 208, 211, 0.7);
+
 }
 
+img {
+  border-radius: 5%;
+  width: 80%;
+}
+
+#job-list {
+  color: rgb(61, 62, 62);
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: solid rgb(195, 207, 207);
+  background-color: rgb(219, 226, 226);
+  max-width: 50%;
+  padding-bottom: 30px;
+
+  h2 {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  h2:hover {
+    transform: scale(1.1);
+    color: black;
+  }
+}
+
+.jobs-title {
+  display: flex;
+  justify-content: center;
+}
+
+.job-item {
+  padding-left: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.section-om {
+  background-color: rgb(242, 237, 237);
+}
+
+.section-om div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+.section-om h1 {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
