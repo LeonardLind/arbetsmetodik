@@ -1,3 +1,16 @@
+#hero {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgba(169, 208, 211, 0.7);
+}
+
+img {
+  border-radius: 5%;
+  width: 80%;
+}
+
 #job-list {
   color: rgb(61, 62, 62);
   font-family: Arial, Helvetica, sans-serif;
